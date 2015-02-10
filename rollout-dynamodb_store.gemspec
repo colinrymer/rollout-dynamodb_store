@@ -8,9 +8,9 @@ Gem::Specification.new do |spec|
   spec.version       = Rollout::DynamodbStore::VERSION
   spec.authors       = ["Colin Rymer"]
   spec.email         = ["colin.rymer@gmail.com"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
-  spec.homepage      = ""
+  spec.summary       = %q{An AWS DynamoDB storage engine for the Rollout gem.}
+  spec.description   = spec.summary
+  spec.homepage      = "https://github.com/colinrymer/rollout-dynamodb_store"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
